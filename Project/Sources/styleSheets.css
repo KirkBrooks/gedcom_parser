@@ -1,0 +1,17 @@
+/*  styleSheets.css  */
+
+text, input {
+  text-align: left;
+  stroke: grey;
+}
+
+button {
+  font-family: Helvetica Neue;
+  font-size: 12px;
+  stroke: rgb(71, 70, 70);
+}
+
+.jsonText {
+  stroke: blue;
+  font-family: monospace;
+}

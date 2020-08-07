@@ -1,0 +1,54 @@
+﻿{
+	"Default Classes": {
+		"classes": [
+			"cDate",
+			"cLB",
+			"cListBox",
+			"cName",
+			"cName_elements",
+			"cObj",
+			"cRegex",
+			"cStr",
+			"cTime"
+		]
+	},
+	"gedcom parser": {
+		"methods": [
+			"gc_parse_level",
+			"gedcom__readMe"
+		],
+		"classes": [
+			"cGed_substructures",
+			"cGedRec"
+		]
+	},
+	"Gedcoms": {
+		"tables": [
+			"Ged_rec",
+			"GEDCOMS"
+		],
+		"methods": [
+			"gc_import_file",
+			"gc_make_records",
+			"gedcom_browser_controller",
+			"GEDCOM_importer",
+			"gedcom_LB"
+		],
+		"forms": [
+			"[GEDCOMS]gedcom_browser",
+			"gedcom_browser"
+		]
+	},
+	"INDI": {
+		"methods": [
+			"INDI__readMe"
+		]
+	},
+	"lib": {
+		"methods": [
+			"blob_to_text",
+			"isOK"
+		]
+	},
+	"trash": {}
+}

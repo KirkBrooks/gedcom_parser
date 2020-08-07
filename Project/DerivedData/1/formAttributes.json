@@ -1,0 +1,16 @@
+﻿{
+	"forms": {
+		"gedcom_browser": {
+			"timeStamp": "2020-07-27T19:01:22.604Z",
+			"destination": "detailScreen"
+		},
+		"Form1": {
+			"timeStamp": "2020-07-07T00:55:36.259Z",
+			"destination": "detailScreen"
+		},
+		"output": {
+			"timeStamp": "2020-06-04T22:36:08.501Z",
+			"destination": "listScreen"
+		}
+	}
+}

@@ -1,0 +1,88 @@
+﻿{
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"windowSizingX": "variable",
+	"windowSizingY": "variable",
+	"windowMinWidth": 0,
+	"windowMinHeight": 0,
+	"windowMaxWidth": 32767,
+	"windowMaxHeight": 32767,
+	"rightMargin": 10,
+	"bottomMargin": 10,
+	"events": [
+		"onLoad"
+	],
+	"windowTitle": "window title",
+	"destination": "detailScreen",
+	"pages": [
+		{
+			"objects": {}
+		},
+		{
+			"objects": {
+				"icon": {
+					"type": "input",
+					"left": 11,
+					"top": 33,
+					"width": 70,
+					"height": 70,
+					"hideFocusRing": true,
+					"borderStyle": "none",
+					"fill": "transparent",
+					"dataSourceTypeHint": "picture",
+					"pictureFormat": "proportionalCenter"
+				},
+				"Input1": {
+					"type": "input",
+					"left": 79,
+					"top": 10,
+					"width": 400,
+					"height": 70,
+					"hideFocusRing": true,
+					"borderStyle": "none",
+					"fill": "transparent",
+					"bottom": 80,
+					"enterable": false,
+					"focusable": false,
+					"scrollbarVertical": "automatic",
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"dataSource": "Form:C1466.message"
+				},
+				"btn_Accept": {
+					"type": "button",
+					"text": "OK",
+					"top": 93,
+					"left": 379,
+					"width": 110,
+					"height": 29,
+					"events": [
+						"onClick"
+					],
+					"action": "accept",
+					"sizingX": "move",
+					"sizingY": "move",
+					"style": "bevel"
+				},
+				"btn_cancel": {
+					"type": "button",
+					"text": "Cancel",
+					"top": 93,
+					"left": 259,
+					"width": 110,
+					"height": 29,
+					"events": [
+						"onClick"
+					],
+					"action": "cancel",
+					"sizingX": "move",
+					"sizingY": "move",
+					"style": "bevel"
+				}
+			}
+		}
+	],
+	"method": "method.4dm"
+}

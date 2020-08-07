@@ -1,0 +1,11 @@
+
+backup/*
+backups/*
+*.journal
+*.4DD
+*.4DIndx
+Data/data.Match
+Data/Logs/Backup Journal[001].txt
+files/*
+userPreferences.*
+Settings/*

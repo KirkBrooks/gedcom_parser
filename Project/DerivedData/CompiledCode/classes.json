@@ -1,0 +1,150 @@
+﻿{
+	"cLB": {
+		"functions": {}
+	},
+	"cName": {
+		"functions": {
+			"name": 2147483531,
+			"get": 2147483530,
+			"getAll": 2147483529,
+			"getEncoded": 2147483528,
+			"getGedcom": 2147483527,
+			"parseNameStr": 2147483526,
+			"stripEncode": 2147483525
+		},
+		"extends": "cName_elements",
+		"constructorID": 2147483532
+	},
+	"cObj": {
+		"functions": {
+			"getValue": 2147483522,
+			"setValue": 2147483521,
+			"__parsePath": 2147483520,
+			"__subObj": 2147483519,
+			"__key": 2147483518,
+			"__writeValue": 2147483517,
+			"__getSubObj": 2147483516,
+			"__readValue": 2147483515,
+			"__updatePath": 2147483514
+		},
+		"constructorID": 2147483523
+	},
+	"Ged_rec": {
+		"functions": {},
+		"extends": "DataClass"
+	},
+	"cDate": {
+		"functions": {
+			"dateValue": 2147483572,
+			"yearOf": 2147483571,
+			"monthOf": 2147483570,
+			"dayOf": 2147483569,
+			"dayName": 2147483568,
+			"monthName": 2147483567,
+			"monthNumFromName": 2147483566,
+			"firstOfMonth": 2147483565,
+			"lastOfMonth": 2147483564,
+			"getEpoch": 2147483563,
+			"strDate": 2147483562,
+			"setDate": 2147483561,
+			"calcDate": 2147483560,
+			"setDateValue": 2147483559
+		},
+		"extends": "cTime",
+		"constructorID": 2147483573
+	},
+	"cGedRec": {
+		"functions": {
+			"__parse": 2147483537,
+			"__setValue": 2147483536,
+			"__updatePath": 2147483535,
+			"__container": 2147483534
+		},
+		"extends": "cGed_substructures",
+		"constructorID": 2147483538
+	},
+	"cGed_substructures": {
+		"functions": {
+			"parse": 2147483542,
+			"getTO": 2147483616,
+			"__regex": 2147483541,
+			"__levelCol": 2147483498,
+			"__levelBounds": 2147483499,
+			"__extractLevel": 2147483617,
+			"__mergeObj": 2147483540
+		},
+		"constructorID": 2147483543
+	},
+	"cStr": {
+		"functions": {
+			"trim": 2147483598,
+			"concatWithStr": 2147483597,
+			"encodeQuotedText": 2147483596,
+			"padLeft": 2147483595
+		}
+	},
+	"cListBox": {
+		"functions": {
+			"getCoords": 2147483556,
+			"setCoords": 2147483555,
+			"visible": 2147483554,
+			"hide": 2147483553,
+			"show": 2147483552,
+			"nRows": 2147483551,
+			"nColumns": 2147483550,
+			"insertCol": 2147483549,
+			"clearCols": 2147483548,
+			"deleteColumn": 2147483547,
+			"selectRow": 2147483546,
+			"getCell": 2147483545,
+			"colNames": 2147483544
+		},
+		"constructorID": 2147483557
+	},
+	"cName_elements": {
+		"functions": {
+			"loadLists": 2147483592,
+			"nameIsAlt": 2147483591,
+			"nameIsLastNameElement": 2147483590,
+			"isPrefix": 2147483589,
+			"isSuffix": 2147483588
+		},
+		"extends": "cStr",
+		"constructorID": 2147483593
+	},
+	"cTime": {
+		"functions": {
+			"calcTimeZoneDiff": 2147483585,
+			"calcTime": 2147483584,
+			"setTime": 2147483583,
+			"addTime": 2147483582,
+			"subtractTime": 2147483581,
+			"timeDiff": 2147483580,
+			"hour": 2147483579,
+			"minute": 2147483578,
+			"second": 2147483577,
+			"fracDay": 2147483576,
+			"strTime": 2147483575
+		},
+		"constructorID": 2147483586
+	},
+	"cRegex": {
+		"functions": {
+			"setText": 2147483613,
+			"setPattern": 2147483612,
+			"clear": 2147483611,
+			"caseSensitive": 2147483610,
+			"find": 2147483609,
+			"findAll": 2147483608,
+			"replace": 2147483607,
+			"replaceAll": 2147483606,
+			"placeholders": 2147483605,
+			"extractFindAll": 2147483604,
+			"getLastFind": 2147483603,
+			"getStrings": 2147483602,
+			"findAllResults": 2147483601,
+			"findAllStart": 2147483600
+		},
+		"constructorID": 2147483614
+	}
+}

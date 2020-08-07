@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE base SYSTEM "http://www.4d.com/dtd/2007/base.dtd" >
+<base name="gedcom_parser" uuid="78ABBD2619CE45EBB1EE407F01BAF992" collation_locale="en">
+	<schema name="DEFAULT_SCHEMA"/>
+	<table name="GEDCOMS" uuid="C99427E534484815A927745F523638B9" id="1">
+		<field name="id" uuid="02C31AEE25CC4621A2CD59697586BC60" type="10" unique="true" autogenerate="true" store_as_UUID="true" not_null="true" id="1"/>
+		<field name="name" uuid="18F9935869114A278F165D2DBF711433" type="10" limiting_length="255" never_null="true" id="2"/>
+		<field name="d" uuid="980E7F23C4F04F74BB1ACAAD9577544C" type="21" blob_switch_size="2147483647" never_null="true" id="3"/>
+		<field name="blob" uuid="462E61E2B67C4CBEA376AE07FEB10C05" type="18" never_null="true" id="4"/>
+		<primary_key field_name="id" field_uuid="02C31AEE25CC4621A2CD59697586BC60"/>
+		<table_extra trigger_insert="true" trigger_update="true" output_form="output" input_form="gedcom_browser">
+			<editor_table_info displayable_fields_count="6">
+				<color red="255" green="255" blue="255" alpha="0"/>
+				<coordinates left="40" top="40" width="120" height="167.33203125"/>
+			</editor_table_info>
+		</table_extra>
+	</table>
+	<table name="Ged_rec" uuid="E8C070DCBD1144B58C67EE9039A8B4CC" id="2">
+		<field name="id" uuid="9AE4732F81D54F57BA22E8D3AB594C47" type="10" unique="true" autogenerate="true" store_as_UUID="true" not_null="true" id="1"/>
+		<field name="sourceFile" uuid="A0A1C2B08A124946AC2426C83AC44B3A" type="10" store_as_UUID="true" never_null="true" id="2"/>
+		<field name="kind" uuid="BD81F6AB971F417D9201E3F361C9E44F" type="10" limiting_length="20" never_null="true" id="3"/>
+		<field name="xref" uuid="3DBC80FBFE8A423A89C02E5F979B2DE2" type="10" limiting_length="255" never_null="true" id="4"/>
+		<field name="d" uuid="BB306B7FFBF5481DAF3E52342B79B626" type="21" blob_switch_size="2147483647" never_null="true" id="5"/>
+		<field name="r" uuid="196AFE137B4F40518CB4F3823A4050C1" type="21" blob_switch_size="2147483647" never_null="true" id="6"/>
+		<field name="value" uuid="BDE7458B590045E3BB2EEAA8CA6DAE8A" type="10" limiting_length="255" never_null="true" id="7"/>
+		<primary_key field_name="id" field_uuid="9AE4732F81D54F57BA22E8D3AB594C47"/>
+		<table_extra output_form="Output" input_form="input">
+			<editor_table_info displayable_fields_count="8">
+				<color red="255" green="255" blue="255" alpha="0"/>
+				<coordinates left="309.3359375" top="39.58984375" width="138.91015625" height="222.19921875"/>
+			</editor_table_info>
+		</table_extra>
+	</table>
+	<relation uuid="FA65E599FB6F401C93582FD852E23528" name_Nto1="Gedcom" name_1toN="records" auto_load_Nto1="true" auto_load_1toN="false" foreign_key="false" state="1" integrity="delete">
+		<related_field kind="source">
+			<field_ref uuid="A0A1C2B08A124946AC2426C83AC44B3A" name="sourceFile">
+				<table_ref uuid="E8C070DCBD1144B58C67EE9039A8B4CC" name="Ged_rec"/>
+			</field_ref>
+		</related_field>
+		<related_field kind="destination">
+			<field_ref uuid="02C31AEE25CC4621A2CD59697586BC60" name="id">
+				<table_ref uuid="C99427E534484815A927745F523638B9" name="GEDCOMS"/>
+			</field_ref>
+		</related_field>
+		<relation_extra entry_wildchar="false" entry_create="false" choice_field="0" entry_autofill="false">
+			<editor_relation_info via_point_x="-1" via_point_y="-1" prefers_left="true" smartlink="true">
+				<color red="255" green="255" blue="255" alpha="0"/>
+			</editor_relation_info>
+		</relation_extra>
+	</relation>
+	<index kind="regular" unique_keys="true" uuid="4C2E060D98F94D35A5DC0C2038344A5B" type="7">
+		<field_ref uuid="02C31AEE25CC4621A2CD59697586BC60" name="id">
+			<table_ref uuid="C99427E534484815A927745F523638B9" name="GEDCOMS"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" uuid="B5672BBD91474031B74889B1A293F28B" type="7">
+		<field_ref uuid="9AE4732F81D54F57BA22E8D3AB594C47" name="id">
+			<table_ref uuid="E8C070DCBD1144B58C67EE9039A8B4CC" name="Ged_rec"/>
+		</field_ref>
+	</index>
+	<base_extra __stringCompHash="icu:63.1.0" __keywordBuildingHash="icu:63.1.0"/>
+</base>
