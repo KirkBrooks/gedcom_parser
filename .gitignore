@@ -9,3 +9,4 @@ Data/Logs/Backup Journal[001].txt
 files/*
 userPreferences.*
 Settings/*
+backupHistory.json
