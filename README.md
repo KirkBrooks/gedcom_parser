@@ -4,7 +4,7 @@
 This is a 4D Project requiring v18R4+. 
 
 ## GEDCOM
-Anyone who has spent any time at all reseraching genealogy has come accross the [GEDCOM file format][https://en.wikipedia.org/wiki/GEDCOM#:~:text=GEDCOM%20(%2F%CB%88d%CA%92%C9%9Bd,an%20aid%20to%20genealogical%20research.]. It's a very simple approach to building a data transmission file using human-readable text. it's simplicity tends to obscure the difficulty one quickly runs into when attempting to parse the data back out.
+Anyone who has spent any time at all reseraching genealogy has come accross the [GEDCOM file format](https://en.wikipedia.org/wiki/GEDCOM#:~:text=GEDCOM%20(%2F%CB%88d%CA%92%C9%9Bd,an%20aid%20to%20genealogical%20research). It's a very simple approach to building a data transmission file using human-readable text. it's simplicity tends to obscure the difficulty one quickly runs into when attempting to parse the data back out.
 
 ## This Project
 This project provides a structure for importing and storing multiple GEDCOMS. The current status of the project is to read any number of GEDCOM files, create a record for each file and then parse the contents into separate records linked to that file. 
