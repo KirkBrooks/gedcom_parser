@@ -103,7 +103,7 @@
 				"field_d": {
 					"type": "input",
 					"dataSource": "[Ged_rec:2]d:5",
-					"top": 156,
+					"top": 183,
 					"left": 10,
 					"width": 440,
 					"height": 225,
@@ -133,9 +133,35 @@
 						"onClick"
 					],
 					"action": "nextRecord"
+				},
+				"label_sourceFile1": {
+					"type": "text",
+					"text": "value:",
+					"top": 154,
+					"left": 10,
+					"width": 100,
+					"height": 17
+				},
+				"field_sourceFile1": {
+					"type": "input",
+					"dataSource": "[Ged_rec:2]value:7",
+					"top": 154,
+					"left": 120,
+					"width": 330,
+					"height": 17
 				}
-			}
+			},
+			"entryOrder": [
+				"field_id",
+				"field_sourceFile",
+				"field_kind",
+				"field_ident",
+				"field_sourceFile1",
+				"field_d",
+				"Button",
+				"Button1"
+			]
 		}
 	],
-	"geometryStamp": 78
+	"geometryStamp": 102
 }

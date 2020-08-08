@@ -126,7 +126,7 @@
 				},
 				"label_d": {
 					"type": "text",
-					"text": "d",
+					"text": "value\t",
 					"top": 10,
 					"left": 890,
 					"width": 100,
@@ -134,7 +134,7 @@
 				},
 				"field_d": {
 					"type": "input",
-					"dataSource": "[Ged_rec:2]d:5",
+					"dataSource": "[Ged_rec:2]value:7",
 					"top": 37,
 					"left": 890,
 					"width": 250,
