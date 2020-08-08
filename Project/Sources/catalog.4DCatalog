@@ -31,7 +31,7 @@
 			</editor_table_info>
 		</table_extra>
 	</table>
-	<relation uuid="FA65E599FB6F401C93582FD852E23528" name_Nto1="Gedcom" name_1toN="records" auto_load_Nto1="true" auto_load_1toN="false" foreign_key="false" state="1" integrity="delete">
+	<relation uuid="FA65E599FB6F401C93582FD852E23528" name_Nto1="Gedcom" name_1toN="Records" auto_load_Nto1="true" auto_load_1toN="false" foreign_key="false" state="1" integrity="delete">
 		<related_field kind="source">
 			<field_ref uuid="A0A1C2B08A124946AC2426C83AC44B3A" name="sourceFile">
 				<table_ref uuid="E8C070DCBD1144B58C67EE9039A8B4CC" name="Ged_rec"/>

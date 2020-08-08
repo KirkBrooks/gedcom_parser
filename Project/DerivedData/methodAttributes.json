@@ -1,7 +1,7 @@
 ﻿{
 	"methods": {
 		"gedcom_browser_controller": {
-			"timeStamp": "2020-08-03T23:43:11.436Z"
+			"timeStamp": "2020-08-07T15:23:28.260Z"
 		},
 		"LB_init_obj": {
 			"timeStamp": "2020-04-23T19:59:50.000Z"
@@ -31,10 +31,10 @@
 			"timeStamp": "2020-07-27T19:42:51.855Z"
 		},
 		"gc_import_file": {
-			"timeStamp": "2020-08-07T02:08:45.874Z"
+			"timeStamp": "2020-08-08T03:00:22.577Z"
 		},
 		"gc_parse_level": {
-			"timeStamp": "2020-08-02T22:21:40.988Z"
+			"timeStamp": "2020-08-07T16:05:14.062Z"
 		},
 		"gc_make_records": {
 			"timeStamp": "2020-08-03T23:17:02.235Z"

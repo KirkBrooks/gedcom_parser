@@ -25,7 +25,7 @@
 					"type": "rectangle",
 					"top": 8,
 					"left": 192,
-					"width": 575,
+					"width": 475,
 					"height": 30,
 					"borderRadius": 5,
 					"strokeWidth": 0,
@@ -62,6 +62,7 @@
 					"fill": "#EEEEEE",
 					"alternateFill": "automatic",
 					"rowHeight": "24px",
+					"method": "ObjectMethods/gcom_LB.4dm",
 					"columns": [
 						{
 							"name": "name",
@@ -81,29 +82,23 @@
 				"field_id": {
 					"type": "input",
 					"dataSource": "Form:C1466.gcom_LB.curItem.id",
-					"top": 203,
+					"top": 473,
 					"left": 197,
 					"width": 330,
 					"height": 20,
 					"borderStyle": "none",
 					"fill": "transparent",
-					"sizingY": "move"
-				},
-				"label_name": {
-					"type": "text",
-					"text": "name:",
-					"top": 55,
-					"left": 197,
-					"width": 100,
-					"height": 17
+					"sizingY": "move",
+					"stroke": "#696969"
 				},
 				"field_name": {
 					"type": "input",
 					"dataSource": "Form:C1466.gcom_LB.curItem.name",
 					"top": 53,
-					"left": 307,
+					"left": 197,
 					"width": 350,
-					"height": 20
+					"height": 20,
+					"placeholder": "  Gedcom name"
 				},
 				"field_d": {
 					"type": "input",
@@ -111,7 +106,7 @@
 					"top": 82,
 					"left": 197,
 					"width": 462,
-					"height": 113,
+					"height": 382,
 					"class": "jsonText",
 					"sizingY": "grow"
 				},
@@ -155,17 +150,93 @@
 					"type": "button",
 					"text": "Parse",
 					"top": 50,
-					"left": 677,
+					"left": 568,
 					"width": 88,
 					"height": 26,
 					"events": [
 						"onClick"
 					],
 					"method": "ObjectMethods/Button.4dm"
+				},
+				"recs_LB": {
+					"type": "listbox",
+					"dataSource": "Form:C1466.recs_LB.data",
+					"top": 8,
+					"left": 684,
+					"width": 366,
+					"height": 487,
+					"visibility": "visible",
+					"sizingX": "fixed",
+					"sizingY": "grow",
+					"headerHeight": "2em",
+					"listboxType": "collection",
+					"scrollbarHorizontal": "automatic",
+					"scrollbarVertical": "automatic",
+					"resizingMode": "legacy",
+					"currentItemSource": "Form:C1466.recs_LB.curItem",
+					"currentItemPositionSource": "Form:C1466.recs_LB.pos",
+					"selectedItemsSource": "Form:C1466.recs_LB.selected",
+					"events": [
+						"onSelectionChange"
+					],
+					"hideFocusRing": true,
+					"horizontalLineStroke": "transparent",
+					"fill": "#EEEEEE",
+					"alternateFill": "automatic",
+					"rowHeight": "24px",
+					"columns": [
+						{
+							"name": "name1",
+							"dataSource": "This:C1470.kind",
+							"width": 71,
+							"enterable": false,
+							"header": {
+								"text": "Kind",
+								"name": "Header2"
+							},
+							"footer": {
+								"name": "2"
+							}
+						},
+						{
+							"header": {
+								"name": "Header3",
+								"text": "xRef"
+							},
+							"name": "Column1",
+							"dataSource": "This:C1470.xref",
+							"footer": {
+								"name": "Footer1"
+							}
+						},
+						{
+							"header": {
+								"name": "Header4",
+								"text": "Value"
+							},
+							"name": "Column2",
+							"class": "",
+							"dataSource": "This:C1470.value",
+							"footer": {
+								"name": "Footer2"
+							}
+						}
+					]
+				},
+				"field_d1": {
+					"type": "input",
+					"dataSource": "Form:C1466.recs_LB.curItem.d",
+					"top": 41,
+					"left": 1059,
+					"width": 462,
+					"height": 449,
+					"class": "jsonText",
+					"sizingY": "grow",
+					"sizingX": "grow"
 				}
 			}
 		}
 	],
 	"method": "method.4dm",
-	"geometryStamp": 84
+	"geometryStamp": 260
 }

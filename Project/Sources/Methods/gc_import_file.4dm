@@ -14,15 +14,17 @@ C_BLOB:C604($blob)
 C_TEXT:C284($text;$id_t)
 C_LONGINT:C283($i;$k;$n)
 C_OBJECT:C1216($o;$hashMap_o;$TO;$reg)
-C_COLLECTION:C1488($id_col;$lines_c;$recReg_c;$this_rec_c;$recs)
+C_COLLECTION:C1488($id_col;$lines_c;$recReg_c;$this_rec_c;$recs;$t)
 
 
 $file_o:=$1
 $reg:=prosObj.regex
 
 $blob:=$file_o.getContent()
+
 If (BLOB size:C605($blob)>0)
-	$text:=BLOB to text:C555($blob;UTF8 text without length:K22:17)
+	$text:=Convert to text:C1012($blob;"UTF-8")
+	// $text:=BLOB to text($blob;UTF8 text without length)
 	
 	If (Length:C16($text)=0)
 		$text:=BLOB to text:C555($blob;Mac text without length:K22:10)
@@ -58,6 +60,13 @@ End if
 // --------------------------------------------------------
 $text:=prosObj.str.fixLineEnding($text)
 $lines_c:=Split string:C1554($text;"\r")
+
+$t:=Split string:C1554($lines_c[0];"")
+
+
+
+
+
 $text:=""
 
 $TO:=New object:C1471()

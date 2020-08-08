@@ -27,7 +27,7 @@ var $2;$col_in;$level_c;$tags;$bounds : Collection
 var $i : Integer
 var $o;$g;$tagBounds : Object
 var $continue : Boolean
-var $keyTag : Text
+var $keyTag;$t : Text
 
 
 $tags:=New collection:C1472
@@ -44,6 +44,9 @@ For each ($tagBounds;$bounds)
 	$continue:=False:C215
 	
 	Case of 
+		: ($o.tag=Null:C1517)
+			$1.value:=$1.value+$level_c[0]
+			
 		: (($keyTag="CONT") | ($keyTag="CONC")) & ($o.tag#"CONT") & ($o.tag#"CONC")
 			// changed from CONT/CONC to a new tag
 			$tags.push($TO)
@@ -91,9 +94,25 @@ For each ($tagBounds;$bounds)
 	// --------------------------------------------------------
 	$level_c:=$level_c.slice(1)
 	
-	If ($level_c.length>0)
-		gc_parse_level($TO;$level_c.copy())
-	End if 
+	Case of 
+		: ($level_c.length=0)
+		: ($TO=Null:C1517)
+/*  this can happen when the text body contains tabs or other whitespace
+ that confuse the parser. eg: some programs embed tables as \t \t \r
+ add all to $1.value
+*/
+			For each ($t;$level_c)
+				If ($o.tag="CONC")
+					$1.value:=$1.value+$t
+				Else   // CONT
+					$1.value:=$1.value+"\r"+$t
+				End if 
+			End for each 
+			
+		Else 
+			gc_parse_level($TO;$level_c.copy())
+	End case 
+	
 	
 	If ($continue)
 		$tags.push($TO)

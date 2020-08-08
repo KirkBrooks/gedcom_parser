@@ -1,0 +1,165 @@
+*** Full Backup
+Creating archive : Macintosh HD:Users:kirk:4D Workspace:git_repos:gedcom_parser:backups:data[0003].4BK
+Attachment(s): 
+	Macintosh HD:Users:kirk:4D Workspace:git_repos:gedcom_parser:backup: [OK]
+	Macintosh HD:Users:kirk:4D Workspace:git_repos:gedcom_parser:Data:data.4DSyncHeader [NOT FOUND]
+	Macintosh HD:Users:kirk:4D Workspace:git_repos:gedcom_parser:Data:data.4DSyncData [NOT FOUND]
+	Macintosh HD:Users:kirk:4D Workspace:git_repos:gedcom_parser:Data:data.4DIndx [OK]
+Scheduled 8/6/20 8:00 PM
+Starting 8/7/20 7:52 AM
+Ending 8/7/20 7:52 AM
+
+*** Full Backup
+Creating archive : Macintosh HD:Users:kirk:4D Workspace:git_repos:gedcom_parser:backups:data[0004].4BK
+Attachment(s): 
+	Macintosh HD:Users:kirk:4D Workspace:git_repos:gedcom_parser:backup: [OK]
+	Macintosh HD:Users:kirk:4D Workspace:git_repos:gedcom_parser:Data:data.4DSyncHeader [NOT FOUND]
+	Macintosh HD:Users:kirk:4D Workspace:git_repos:gedcom_parser:Data:data.4DSyncData [NOT FOUND]
+	Macintosh HD:Users:kirk:4D Workspace:git_repos:gedcom_parser:Data:data.4DIndx [OK]
+Scheduled 8/7/20 8:00 AM
+Starting 8/7/20 8:00 AM
+Ending 8/7/20 8:00 AM
+
+*** Full Backup
+Creating archive : Macintosh HD:Users:kirk:4D Workspace:git_repos:gedcom_parser:backups:data[0005].4BK
+Attachment(s): 
+	Macintosh HD:Users:kirk:4D Workspace:git_repos:gedcom_parser:backup: [OK]
+	Macintosh HD:Users:kirk:4D Workspace:git_repos:gedcom_parser:Data:data.4DSyncHeader [NOT FOUND]
+	Macintosh HD:Users:kirk:4D Workspace:git_repos:gedcom_parser:Data:data.4DSyncData [NOT FOUND]
+	Macintosh HD:Users:kirk:4D Workspace:git_repos:gedcom_parser:Data:data.4DIndx [OK]
+Scheduled 8/7/20 9:00 AM
+Starting 8/7/20 9:00 AM
+Ending 8/7/20 9:00 AM
+
+*** Full Backup
+Creating archive : Macintosh HD:Users:kirk:4D Workspace:git_repos:gedcom_parser:backups:data[0006].4BK
+Attachment(s): 
+	Macintosh HD:Users:kirk:4D Workspace:git_repos:gedcom_parser:backup: [OK]
+	Macintosh HD:Users:kirk:4D Workspace:git_repos:gedcom_parser:Data:data.4DSyncHeader [NOT FOUND]
+	Macintosh HD:Users:kirk:4D Workspace:git_repos:gedcom_parser:Data:data.4DSyncData [NOT FOUND]
+	Macintosh HD:Users:kirk:4D Workspace:git_repos:gedcom_parser:Data:data.4DIndx [OK]
+Scheduled 8/7/20 10:00 AM
+Starting 8/7/20 10:00 AM
+Ending 8/7/20 10:00 AM
+
+*** Full Backup
+Creating archive : Macintosh HD:Users:kirk:4D Workspace:git_repos:gedcom_parser:backups:data[0007].4BK
+Attachment(s): 
+	Macintosh HD:Users:kirk:4D Workspace:git_repos:gedcom_parser:backup: [OK]
+	Macintosh HD:Users:kirk:4D Workspace:git_repos:gedcom_parser:Data:data.4DSyncHeader [NOT FOUND]
+	Macintosh HD:Users:kirk:4D Workspace:git_repos:gedcom_parser:Data:data.4DSyncData [NOT FOUND]
+	Macintosh HD:Users:kirk:4D Workspace:git_repos:gedcom_parser:Data:data.4DIndx [OK]
+Scheduled 8/7/20 11:00 AM
+Starting 8/7/20 11:00 AM
+Ending 8/7/20 11:00 AM
+
+*** Full Backup
+Creating archive : Macintosh HD:Users:kirk:4D Workspace:git_repos:gedcom_parser:backups:data[0008].4BK
+Attachment(s): 
+	Macintosh HD:Users:kirk:4D Workspace:git_repos:gedcom_parser:backup: [OK]
+	Macintosh HD:Users:kirk:4D Workspace:git_repos:gedcom_parser:Data:data.4DSyncHeader [NOT FOUND]
+	Macintosh HD:Users:kirk:4D Workspace:git_repos:gedcom_parser:Data:data.4DSyncData [NOT FOUND]
+	Macintosh HD:Users:kirk:4D Workspace:git_repos:gedcom_parser:Data:data.4DIndx [OK]
+Scheduled 8/7/20 12:00 PM
+Starting 8/7/20 12:00 PM
+Ending 8/7/20 12:00 PM
+
+*** Full Backup
+Creating archive : Macintosh HD:Users:kirk:4D Workspace:git_repos:gedcom_parser:backups:data[0009].4BK
+Attachment(s): 
+	Macintosh HD:Users:kirk:4D Workspace:git_repos:gedcom_parser:backup: [OK]
+	Macintosh HD:Users:kirk:4D Workspace:git_repos:gedcom_parser:Data:data.4DSyncHeader [NOT FOUND]
+	Macintosh HD:Users:kirk:4D Workspace:git_repos:gedcom_parser:Data:data.4DSyncData [NOT FOUND]
+	Macintosh HD:Users:kirk:4D Workspace:git_repos:gedcom_parser:Data:data.4DIndx [OK]
+Scheduled 8/7/20 1:00 PM
+Starting 8/7/20 1:00 PM
+Ending 8/7/20 1:00 PM
+
+*** Full Backup
+Creating archive : Macintosh HD:Users:kirk:4D Workspace:git_repos:gedcom_parser:backups:data[0010].4BK
+Attachment(s): 
+	Macintosh HD:Users:kirk:4D Workspace:git_repos:gedcom_parser:backup: [OK]
+	Macintosh HD:Users:kirk:4D Workspace:git_repos:gedcom_parser:Data:data.4DSyncHeader [NOT FOUND]
+	Macintosh HD:Users:kirk:4D Workspace:git_repos:gedcom_parser:Data:data.4DSyncData [NOT FOUND]
+	Macintosh HD:Users:kirk:4D Workspace:git_repos:gedcom_parser:Data:data.4DIndx [OK]
+Scheduled 8/7/20 2:00 PM
+Starting 8/7/20 2:00 PM
+Ending 8/7/20 2:02 PM
+
+*** Full Backup
+Creating archive : Macintosh HD:Users:kirk:4D Workspace:git_repos:gedcom_parser:backups:data[0011].4BK
+Attachment(s): 
+	Macintosh HD:Users:kirk:4D Workspace:git_repos:gedcom_parser:backup: [OK]
+	Macintosh HD:Users:kirk:4D Workspace:git_repos:gedcom_parser:Data:data.4DSyncHeader [NOT FOUND]
+	Macintosh HD:Users:kirk:4D Workspace:git_repos:gedcom_parser:Data:data.4DSyncData [NOT FOUND]
+	Macintosh HD:Users:kirk:4D Workspace:git_repos:gedcom_parser:Data:data.4DIndx [OK]
+Scheduled 8/7/20 3:00 PM
+Starting 8/7/20 3:00 PM
+Ending 8/7/20 3:00 PM
+
+*** Full Backup
+Creating archive : Macintosh HD:Users:kirk:4D Workspace:git_repos:gedcom_parser:backups:data[0012].4BK
+Attachment(s): 
+	Macintosh HD:Users:kirk:4D Workspace:git_repos:gedcom_parser:backup: [OK]
+	Macintosh HD:Users:kirk:4D Workspace:git_repos:gedcom_parser:Data:data.4DSyncHeader [NOT FOUND]
+	Macintosh HD:Users:kirk:4D Workspace:git_repos:gedcom_parser:Data:data.4DSyncData [NOT FOUND]
+	Macintosh HD:Users:kirk:4D Workspace:git_repos:gedcom_parser:Data:data.4DIndx [OK]
+Scheduled 8/7/20 4:00 PM
+Starting 8/7/20 4:00 PM
+Ending 8/7/20 4:00 PM
+
+*** Full Backup
+Creating archive : Macintosh HD:Users:kirk:4D Workspace:git_repos:gedcom_parser:backups:data[0013].4BK
+Attachment(s): 
+	Macintosh HD:Users:kirk:4D Workspace:git_repos:gedcom_parser:backup: [OK]
+	Macintosh HD:Users:kirk:4D Workspace:git_repos:gedcom_parser:Data:data.4DSyncHeader [NOT FOUND]
+	Macintosh HD:Users:kirk:4D Workspace:git_repos:gedcom_parser:Data:data.4DSyncData [NOT FOUND]
+	Macintosh HD:Users:kirk:4D Workspace:git_repos:gedcom_parser:Data:data.4DIndx [OK]
+Scheduled 8/7/20 5:00 PM
+Starting 8/7/20 5:00 PM
+Ending 8/7/20 5:00 PM
+
+*** Full Backup
+Creating archive : Macintosh HD:Users:kirk:4D Workspace:git_repos:gedcom_parser:backups:data[0014].4BK
+Attachment(s): 
+	Macintosh HD:Users:kirk:4D Workspace:git_repos:gedcom_parser:backup: [OK]
+	Macintosh HD:Users:kirk:4D Workspace:git_repos:gedcom_parser:Data:data.4DSyncHeader [NOT FOUND]
+	Macintosh HD:Users:kirk:4D Workspace:git_repos:gedcom_parser:Data:data.4DSyncData [NOT FOUND]
+	Macintosh HD:Users:kirk:4D Workspace:git_repos:gedcom_parser:Data:data.4DIndx [OK]
+Scheduled 8/7/20 6:00 PM
+Starting 8/7/20 6:05 PM
+Ending 8/7/20 6:05 PM
+
+*** Full Backup
+Creating archive : Macintosh HD:Users:kirk:4D Workspace:git_repos:gedcom_parser:backups:data[0015].4BK
+Attachment(s): 
+	Macintosh HD:Users:kirk:4D Workspace:git_repos:gedcom_parser:backup: [OK]
+	Macintosh HD:Users:kirk:4D Workspace:git_repos:gedcom_parser:Data:data.4DSyncHeader [NOT FOUND]
+	Macintosh HD:Users:kirk:4D Workspace:git_repos:gedcom_parser:Data:data.4DSyncData [NOT FOUND]
+	Macintosh HD:Users:kirk:4D Workspace:git_repos:gedcom_parser:Data:data.4DIndx [OK]
+Scheduled 8/7/20 7:00 PM
+Starting 8/7/20 7:58 PM
+Ending 8/7/20 7:58 PM
+
+*** Full Backup
+Creating archive : Macintosh HD:Users:kirk:4D Workspace:git_repos:gedcom_parser:backups:data[0016].4BK
+Attachment(s): 
+	Macintosh HD:Users:kirk:4D Workspace:git_repos:gedcom_parser:backup: [OK]
+	Macintosh HD:Users:kirk:4D Workspace:git_repos:gedcom_parser:Data:data.4DSyncHeader [NOT FOUND]
+	Macintosh HD:Users:kirk:4D Workspace:git_repos:gedcom_parser:Data:data.4DSyncData [NOT FOUND]
+	Macintosh HD:Users:kirk:4D Workspace:git_repos:gedcom_parser:Data:data.4DIndx [OK]
+Scheduled 8/7/20 8:00 PM
+Starting 8/7/20 8:00 PM
+Ending 8/7/20 8:00 PM
+
+*** Full Backup
+Creating archive : Macintosh HD:Users:kirk:4D Workspace:git_repos:gedcom_parser:backups:data[0017].4BK
+Attachment(s): 
+	Macintosh HD:Users:kirk:4D Workspace:git_repos:gedcom_parser:backup: [OK]
+	Macintosh HD:Users:kirk:4D Workspace:git_repos:gedcom_parser:Data:data.4DSyncHeader [NOT FOUND]
+	Macintosh HD:Users:kirk:4D Workspace:git_repos:gedcom_parser:Data:data.4DSyncData [NOT FOUND]
+	Macintosh HD:Users:kirk:4D Workspace:git_repos:gedcom_parser:Data:data.4DIndx [OK]
+Scheduled 8/7/20 9:00 PM
+Starting 8/8/20 10:40 AM
+Ending 8/8/20 10:40 AM
+

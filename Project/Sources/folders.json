@@ -35,8 +35,7 @@
 			"gedcom_LB"
 		],
 		"forms": [
-			"[GEDCOMS]gedcom_browser",
-			"gedcom_browser"
+			"[GEDCOMS]gedcom_browser"
 		]
 	},
 	"INDI": {

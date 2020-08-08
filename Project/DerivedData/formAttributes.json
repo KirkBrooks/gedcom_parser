@@ -1,9 +1,5 @@
 ﻿{
 	"forms": {
-		"gedcom_browser": {
-			"timeStamp": "2020-06-18T22:18:37.405Z",
-			"destination": "detailScreen"
-		},
 		"ui_form": {
 			"timeStamp": "2019-10-30T15:56:06.000Z",
 			"destination": "detailScreen"

@@ -55,7 +55,13 @@ Case of
 	: ($action="")
 	: ($action="")
 	: (False:C215)  ///// form objects /////
-	: ($action="")
+	: ($action="gcom_LB")
+		If (Form:C1466.gcom_LB.curItem#Null:C1517)
+			Form:C1466.recs_LB.data:=Form:C1466.gcom_LB.curItem.Records
+		Else 
+			Form:C1466.recs_LB.data:=Null:C1517
+		End if 
+		
 	: ($action="")
 	: (False:C215)  ///// form actions /////
 	: ($action="loadGEDS")
@@ -65,6 +71,8 @@ Case of
 			: ($form_event=On Load:K2:1)
 				Form:C1466.gcom_LB:=LB_init_obj("gcom_LB")
 				Form:C1466.gcom_LB.data:=ds:C1482.GEDCOMS.all()
+				
+				Form:C1466.recs_LB:=LB_init_obj("recs_LB")
 				
 				
 			: ($form_event=On Outside Call:K2:11)
